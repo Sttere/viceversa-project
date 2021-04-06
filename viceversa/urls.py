@@ -18,4 +18,5 @@ from .import view
 
 urlpatterns = [
     path('', view.home),
+    path('reversed/', view.reverse, name='reverse'),
 ]
